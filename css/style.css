@@ -1,0 +1,25 @@
+/*
+%name - reusable styles (used @extend %name)
+@mixin name - function (used @include name(param))
+$name - variable
+*/
+* {
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  background: #1c1c1c;
+}
+
+.wrap {
+  background: #00192b;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: -5px 5px 0px black;
+}
